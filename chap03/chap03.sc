@@ -1,5 +1,15 @@
 val greetStrings = new Array[String](3)
 
+for (i <- 0 to 2)
+  println(greetStrings(i))
+
+
+
+var a: Int = 0
+println(a)
+
+0.+(2)
+
 greetStrings(0) = "Hello"
 
 greetStrings
@@ -65,4 +75,6 @@ thrill.head
 thrill.init
 
 thrill.isEmpty
+
+0.to(2)
 
